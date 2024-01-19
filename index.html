@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .content {
+            padding: 20px 0;
+        }
+
+        .project {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .project .thumbnail {
+            flex: 1 1 300px;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .project .thumbnail img {
+            width: 100%;
+            height: auto;
+        }
+
+        .project .details {
+            flex: 1 1 300px;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+        }
+
+        .project .details h3 {
+            margin-top: 0;
+        }
+
+        .project .details p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h1>Welcome to My Portfolio</h1>
+
+            <div class="project">
+                <div class="thumbnail">
+                    <img src="https://via.placeholder.com/300" alt="Project Thumbnail">
+                </div>
+                <div class="details">
+                    <h3>Project Title</h3>
+                    <p>Project Description</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
